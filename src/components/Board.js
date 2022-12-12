@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Letter from './Letter.js';
 
 const Board = () => {
-  const [board, setBoard] = useState(boardDefault);
 
   return (
     <div className='board'>Board
