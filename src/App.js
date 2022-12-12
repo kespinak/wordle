@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import Board from './components/Board.js';
+import Keyboard from './components/Keyboard.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav> 
+        <h1> this is where the nav goes...</h1>
+      </nav>  
+      <Board />
+      <Keyboard />
     </div>
   );
 }
